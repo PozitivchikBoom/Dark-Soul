@@ -7,3 +7,10 @@ def g(z):
     return s
 z = int(input())
 print(g(z))
+
+def parny(file):
+    counter = 0
+    for el in file:
+        if float(el) % 2 == 0:
+            counter += 1
+    return counter
